@@ -1,0 +1,13 @@
+:root {
+    --website-width: 1280px;
+    --main-color: #ffbc00;
+    --secondary-color: #f58742;
+    --light-color: #f4f4f4;
+    --lesslight: #f0f1f5;
+    --medium-color: #ccc;
+    --dark-color: #333;
+    --lessdark-color: #3e423e;
+    --blue-color: #0095CD;
+    --bg-image: url("../img/dark-sky.jpg");
+    --primary-color: #c72727;
+}

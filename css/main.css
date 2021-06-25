@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap');
+@import "./config.css";
+@import "./utility.css";
+@import "./nav.css";
+
+#header-Home {
+    position: relative;
+    background: var(--bg-image) no-repeat center right/cover;
+    height: 100vh;
+    color: var(--light-color);
+}
+
+#header-Home .header-content {
+    text-align: center;
+    padding-top: 30%;
+}
+
+#header-Home .header-content h1 {
+    font-size: 4rem;
+    line-height: 1.2;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-weight: 400;
+
+}
+
+.specials {
+    margin-top: 3rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2rem;
+}
+
+.specials h3 {
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-size: 1.7rem;
+    font-weight: 400;
+    color: var(--light-color);
+}
+
+.specials .fas {
+    color: #ffbc00;
+    padding-bottom: 0.4rem;
+}
+
+.specials div {
+    height: 270px;
+    background: var(--lessdark-color);
+    padding: 0.5rem;
+    border-radius: 5px;
+    color: var(--lesslight);
+}
+
+.specials span {
+    background: var(--light-color);
+    margin-top: 1.5rem 0;
+    height: 3px;
+}

@@ -1,0 +1,115 @@
+body {
+    font-family: "Dosis", sans-serif;
+    line-height: 1.6;
+    background: var(--blue-color);
+}
+
+.container {
+    max-width: var(--website-width);
+    padding: 0 1.5rem;
+    margin: auto;
+    overflow: hidden;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.8rem 2rem;
+    transition: all 0.5s;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-main {
+    background-color: var(--main-color);
+    color: #333;
+}
+
+.btn-light {
+    background-color: var(--light-color);
+    color: #333;
+}
+
+.btn-dark {
+    background-color: var(--dark-color);
+    color: #f4f4f4;
+}
+
+.btn-blue {
+    background: #0095CD;
+    border: 2px solid #ffc338;
+    border-radius: 50px;
+    padding: 0.3rem 1rem;
+    color: #fff;
+}
+
+input:hover {
+    background-color: #ffbc00;
+}
+
+.lead {
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+}
+
+.lead-2 {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+/* padding */
+.py-1 {
+    padding: 1rem 0;
+}
+
+.py-2 {
+    padding: 2rem 0;
+}
+
+.py-3 {
+    padding: 3rem 0;
+}
+
+.py-4 {
+    padding: 4rem 0;
+}
+
+/* Margin  */
+.my-1 {
+    margin: 1rem 0;
+}
+
+.my-2 {
+    margin: 2rem 0;
+}
+
+.my-3 {
+    margin: 3rem 0;
+}
+
+.my-4 {
+    margin: 4rem 0;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.section-title {
+    font-family: 'Sedgwick Ave', cursive;
+    font-size: 2.5rem;
+    font-weight: 400;
+
+    display: block;
+    padding-bottom: 0.5rem;
+    text-align: center;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
+.bottom-line {
+    height: 2px;
+    width: 3rem;
+    background: var(--dark-color);
+    display: block;
+    margin: 0 auto;
+}
