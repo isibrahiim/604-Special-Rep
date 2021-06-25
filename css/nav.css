@@ -164,6 +164,7 @@ nav .links a:hover {
     #nav-toggle:checked~.icon-burger>div:nth-child(2) {
         opacity: 0;
     }
+    
 }
 
 /* Tablet & Smaller */
@@ -181,6 +182,12 @@ nav .links a:hover {
     .btn-blue {
         display: none;
     }
+    #what .specials {
+      grid-template-columns: 1fr;
+      grid-gap: 1rem; 
+    }
+   
+    
 }
 
 /* ipad pro  */

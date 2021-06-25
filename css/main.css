@@ -44,7 +44,7 @@
 }
 
 .specials div {
-    height: 270px;
+    /* height: 270px; */
     background: var(--lessdark-color);
     padding: 0.5rem;
     border-radius: 5px;
