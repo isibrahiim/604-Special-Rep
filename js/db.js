@@ -12,7 +12,7 @@ function updateClock() {
   const bio = {
     "title": "What I do",
     "btm-line" : '',
-    "desc": " I'm a Web designer and also a Designer, I work in the illustration niche, as well as graphic and motion design, photography, and combine them with other visual arts. I work with commercial and social projects of any scale and bring every work to the highest level of perfection.",
+    "desc": " I'm a Web designer and also a mobile App Designer, I work in the illustration niche, as well as graphic and motion design, photography, and combine them with other visual arts. I work with commercial and social projects of any scale and bring every work to the highest level of perfection.",
     
   };
   
