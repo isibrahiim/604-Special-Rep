@@ -186,6 +186,13 @@ nav .links a:hover {
       grid-template-columns: 1fr;
       grid-gap: 1rem; 
     }
+    #about-me .about-wrap{
+        flex-direction: column;
+    }
+    
+    #projects .items div  {
+        grid-template-columns: 1fr;
+    }
    
     
 }
