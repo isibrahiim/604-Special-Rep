@@ -207,3 +207,20 @@ nav .links a:hover {
         display: none;
     }
 }
+@media (max-width: 600px) {
+    #main-footer .footer-content {
+      grid-template-columns: 1fr; }
+      #main-footer .footer-content .inner-footer {
+        grid-template-columns: 1fr;
+        grid-column: 1;
+        padding: 0.75rem; }
+        #main-footer .footer-content .inner-footer .social {
+          margin-top: 1rem; }
+      #main-footer .footer-content div:first-child {
+        border-bottom: #ddd dotted 1px;
+        padding-bottom: 1rem; }
+        #main-footer .footer-content div:first-child img {
+          margin-left: 8rem; }
+      #main-footer .footer-content div:nth-child(2) {
+        border-bottom: #ddd dotted 1px;
+        padding-bottom: 1rem; } }
