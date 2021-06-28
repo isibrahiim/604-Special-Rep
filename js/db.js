@@ -24,6 +24,15 @@ function updateClock() {
   <p class = 'lead'> ${bio.desc}</p>
   `;
   document.querySelector(".bio").innerHTML = bioHtml;
+
+  //   sicky menue= background
+window.addEventListener("scroll", function () {
+  if (window.scrollY > 150) {
+    document.querySelector("#navbar").style.opacity = 0.9;
+  } else {
+    document.querySelector("#navbar").style.opacity = 1;
+  }
+});
   
   //   smooth scrolling
 $("#navbar a").on("click", function (event) {
