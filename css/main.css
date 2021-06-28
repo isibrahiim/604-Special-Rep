@@ -41,11 +41,15 @@
 .specials .fas {
     color: #ffbc00;
     padding-bottom: 0.4rem;
+    border-radius: 60px;
+    box-shadow: 0px 0px 2px #888;
+    padding: 1.5rem;
+    background: var(--dark-color);
 }
 
 .specials div {
-    /* height: 270px; */
-    background: var(--lessdark-color);
+    min-height: 270px;
+    background: var(--strong-dark-color);
     padding: 0.5rem;
     border-radius: 5px;
     color: var(--lesslight);
@@ -55,4 +59,50 @@
     background: var(--light-color);
     margin-top: 1.5rem 0;
     height: 3px;
+}
+#about-me{
+    background-color: #ffbc00;
+}
+#about-me .about-wrap{
+   display: flex;
+  
+}
+#about-me div {
+    flex: 1;
+}
+#about-me .about-Image {
+    background: url('../img/isse-prof.jpg') no-repeat center center/cover;
+}
+#about-me span {
+    margin: 0;
+}
+.about-me-text {
+    padding: 1rem;
+}
+#about-me .section-title{
+    margin: 0;
+}
+.fab {
+    background: var(--dark-color);
+    color: #fff;
+    margin-right: 0.5rem;
+    border: 2px #fff solid;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    line-height: 20px;
+    text-align: center;
+    padding: 0.6rem;
+}
+#projects .items {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 1rem;
+}
+#projects .items{
+    grid-row: auto /span 2;
+}
+.items img {
+    width: 100%;
+    border-radius: 10px;
 }
