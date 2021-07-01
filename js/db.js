@@ -35,19 +35,72 @@ window.addEventListener("scroll", function () {
 });
   
   //   smooth scrolling
-$("#navbar a").on("click", function (event) {
-  if (this.hash !== "") {
-    event.preventDefault();
-    const hash = this.hash;
-    $("html, body").animate(
-      {
-        scrollTop: $(hash).offset().top,
-      },
-      800
-    );
-  }
-});
+// $("#navbar a").on("click", function (event) {
+//   if (this.hash !== "") {
+//     event.preventDefault();
+//     const hash = this.hash;
+//     $("html, body").animate(
+//       {
+//         scrollTop: $(hash).offset().top,
+//       },
+//       800
+//     );
+//   }
+// });
 // Type Writing 
+
+//smooth scrolling js
+let scrollButton= document.getElementById('btn-scroll');
+window.onscroll = function () {
+  scrollFunction()
+}
+function scrollFunction() {
+  if(document.body.scroll > 100 || document.documentElement.scrollTop > 100){
+scrollButton.style.display = "block";
+  }
+  else {
+    scrollButton.style.display = "none";
+  }
+} 
+// Send Email Js Function
+
+function sendEmail() {
+  let emailInput = document.querySelector(".email-input2").value;
+  Email.send({
+    SecureToken: "4a1a26e2-36a8-41ef-b409-308c841b9c0a",
+    Host: "smtp.gmail.com",
+    Username: "mezdunaame@gmail.com",
+    Password: "kmfuunayqrqrwxso",
+    To: "mezdunaame@gmail.com",
+    From: "mezdunaame@gmail.com",
+    Subject: `${emailInput} has Subscribed To Your Website`,
+    Body: `This Email: ${emailInput} Has Subscribed To Your Website`,
+  }).then((message) =>
+    alert(` ${emailInput} You Have successfully Subscribed To Newsletter `)
+  );
+  document.querySelector(".email-input2").value = "";
+}
+//testmonials
+const slides = document.querySelector(".slider").children;
+const indicatorImages = document.querySelector(".slider-indicator").children;
+
+for (let i = 0; i < indicatorImages.length; i++) {
+  indicatorImages[i].addEventListener("click", function () {
+    for (let j = 0; j < indicatorImages.length; j++) {
+      indicatorImages[j].classList.remove("active");
+    }
+    this.classList.add("active");
+    const id = this.getAttribute("data-id");
+    for (let j = 0; j < slides.length; j++) {
+      slides[j].classList.remove("active");
+    }
+
+    slides[id].classList.add("active");
+  });
+}
+
+
+// Type Writing
 const typedTextSpan = document.querySelector(".typed-text");
 const cursorSpan = document.querySelector(".cursor");
 

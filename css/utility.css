@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: "Dosis", sans-serif;
     line-height: 1.6;
@@ -43,6 +48,22 @@ body {
     text-decoration: none;
 }
 
+.btn-primary {
+    background: var(--primary-color);
+}
+
+#btn-scroll {
+    position: absolute;
+    top: 76%;
+    left: 96%;
+    position: fixed;
+    display: none;
+}
+
+#btn-scroll img {
+    width: 50px;
+}
+
 input:hover {
     background-color: #ffbc00;
 }
@@ -58,6 +79,7 @@ input:hover {
 }
 
 /* padding */
+
 .py-1 {
     padding: 1rem 0;
 }
@@ -75,6 +97,7 @@ input:hover {
 }
 
 /* Margin  */
+
 .my-1 {
     margin: 1rem 0;
 }
@@ -91,6 +114,14 @@ input:hover {
     margin: 4rem 0;
 }
 
+.bg-lessdark {
+    background: var(--lessdark-color);
+}
+
+.bg-yellow {
+    background: var(--main-color);
+}
+
 .text-center {
     text-align: center;
 }
@@ -99,7 +130,6 @@ input:hover {
     font-family: 'Sedgwick Ave', cursive;
     font-size: 2.5rem;
     font-weight: 400;
-
     display: block;
     padding-bottom: 0.5rem;
     text-align: center;
