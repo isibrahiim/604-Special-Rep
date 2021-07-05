@@ -34,7 +34,7 @@ nav {
     position: fixed;
     top: 0;
     left: 0;
-    padding: 40px 120px;
+    padding: 0 120px;
     width: 100%;
     z-index: 100000;
     display: flex;
@@ -92,9 +92,10 @@ nav .links a:hover {
 /* Smart Phone  */
 
 @media screen and (max-width: 530px) {
-    #projects .container .items {
+    #projects .container .items, #clients .container .items, #pricing .container .items {
         display: grid;
         grid-template-columns: 1fr;
+        grid-gap: 1rem;
     }
     .btn-blue {
         display: none;

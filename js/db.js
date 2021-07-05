@@ -147,4 +147,19 @@ document.addEventListener("DOMContentLoaded", function () {
   if (textArray.length) setTimeout(type, newTextDelay + 250);
 });
 
+//contact Form
+let model = document.getElementById('content-model');
+let openModel = document.getElementById('model-open');
+let closeModel = document.querySelector('.close-model');
+openModel.addEventListener('click',function(){
+  model.style.display ='block'
+})
+closeModel.addEventListener('click',function(){
+  model.style.display = 'none';
+})
+window.addEventListener('click',function(e){
+if(e.target == model){
+  model.style.display = 'none';
+}
+})
   
