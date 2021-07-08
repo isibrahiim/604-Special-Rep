@@ -39,7 +39,8 @@ nav {
     position: fixed;
     top: 0;
     left: 0;
-    padding: 0 120px;
+    /* padding: 0 120px; */
+    padding: 0 15px;
     width: 100%;
     z-index: 100000;
     display: flex;
@@ -112,7 +113,7 @@ nav .links a:hover {
         font-family: Arial, Helvetica, sans-serif;
         font-weight: 400;
     }
-    #projects .container .items, #clients .container .items, #pricing .container .items, #pricing .container .items {
+    #projects .container .items, #clients .container .items, #pricing .container .items {
         display: grid;
         grid-template-columns: 1fr;
         grid-gap: 1rem;

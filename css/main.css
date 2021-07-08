@@ -1,4 +1,5 @@
 #header-Home {
+  margin-top: 60px;
   position: relative;
   background: var(--bg-image) no-repeat center right/cover;
   height: 100vh;
