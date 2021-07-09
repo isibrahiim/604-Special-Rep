@@ -255,6 +255,20 @@ span.typed-text {
   background: #0177CC;
 }
 
+#contact .container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  color: #fff;
+  font-size: 2rem;
+  height: 250px;
+  padding-top: 30px;
+}
+
+#contact .container span {
+  font-family: 'Sedgwick Ave', cursive;
+  font-weight: bold;
+}
+
 /* contact us  */
 
 /* #model-open {
